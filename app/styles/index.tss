@@ -108,6 +108,22 @@
 	opacity: 0.35
 }
 
+'.explanation': {
+	top: 15
+}
+
+'.credits': {
+	top: 15,
+	bottom: 15
+}
+
+'.hr': {
+	top: 15,
+	height: 1,
+	width: Ti.UI.FILL,
+	backgroundColor: '#d8d4d0'
+}
+
 
 
 

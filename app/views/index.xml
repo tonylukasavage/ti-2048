@@ -1,7 +1,7 @@
 <Alloy>
 	<Window>
 
-		<View class="container">
+		<ScrollView class="container">
 
 			<View class="heading">
 				<Label class="title">2048</Label>
@@ -26,6 +26,12 @@
 				<View class="grid-container" id="grid"/>
 			</View>
 
-		</View>
+			<Label class="explanation">HOW TO PLAY: Swipe to move the tiles. When two tiles with the same number touch, they merge into one!</Label>
+
+			<View class="hr"/>
+
+			<Label class="credits">Created by Tony Lukasavage. Based on 2048 by Gabriele Cirulli.</Label>
+
+		</ScrollView>
 	</Window>
 </Alloy>
