@@ -1,0 +1,31 @@
+<Alloy>
+	<Window>
+
+		<View class="container">
+
+			<View class="heading">
+				<Label class="title">2048</Label>
+				<View class="scores">
+					<View class="score">
+						<Label class="score-header">SCORE</Label>
+						<Label class="score-number">0</Label>
+					</View>
+					<View class="score">
+						<Label class="score-header">BEST</Label>
+						<Label class="score-number">9999</Label>
+					</View>
+				</View>
+			</View>
+
+			<View class="intro">
+				<Label class="intro-text">Join the numbers and get to the 2048 tile!</Label>
+				<Button id="newgame">New Game</Button>
+			</View>
+
+			<View class="game-container">
+				<View class="grid-container" id="grid"/>
+			</View>
+
+		</View>
+	</Window>
+</Alloy>

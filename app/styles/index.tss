@@ -1,0 +1,120 @@
+'#index': {
+	backgroundColor: "#faf8ef",
+	fullscreen: true
+}
+
+'.container': {
+	top: 10,
+	width: 280,
+	layout: 'vertical'
+}
+
+'.heading': {
+	height: Ti.UI.SIZE
+}
+
+'.title': {
+	left: 0,
+	font: {
+		fontWeight: 'bold',
+		fontSize: 44
+	}
+}
+
+'.scores': {
+	right: 0,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	layout: 'horizontal'
+}
+
+'.score': {
+	backgroundColor: '#bbada0',
+	borderRadius: 3,
+	height: 44,
+	width: 80,
+	left: 5
+}
+
+'.score-header': {
+	top: 1,
+	color: '#fff',
+	font: {
+		fontFamily: 'Clear Sans',
+		fontSize: 12,
+		fontWeight: 'normal'
+	}
+}
+
+'.score-number': {
+	bottom: 1,
+	color: '#fff',
+	font: {
+		fontFamily: 'Clear Sans',
+		fontSize: 22,
+		fontWeight: 'bold'
+	}
+}
+
+'.intro': {
+	top: 7,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL
+}
+
+'.intro-text': {
+	left: 0,
+	width: 175,
+	font: {
+		fontFamily: 'Clear Sans',
+		fontWeight: 'normal',
+		fontSize: 16
+	}
+}
+
+'#newgame': {
+	backgroundColor: '#8f7a66',
+	borderRadius: 3,
+	color: '#f9f6f2',
+	height: 44,
+	width: 100,
+	right: 0,
+	font: {
+		fontFamily: 'Clear Sans',
+		fontSize: 16,
+		fontWeight: 'bold'
+	}
+}
+
+'.game-container': {
+	top: 15,
+	backgroundColor: '#bbada0',
+	borderRadius: 6,
+	width: 280,
+	height: 280
+}
+
+
+
+
+'.grid-container': {
+	zIndex: 1
+}
+
+'.grid-cell': {
+	height: 57.5,
+	width: 57.5,
+	borderRadius: 3,
+	backgroundColor: '#eee4da',
+	opacity: 0.35
+}
+
+'Label': {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: '#776e65',
+	font: {
+		fontFamily: 'Clear Sans',
+		fontSize: 14
+	}
+}
