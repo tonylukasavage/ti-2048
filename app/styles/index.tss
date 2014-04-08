@@ -94,20 +94,22 @@
 	height: 280
 }
 
-
-
-
 '.grid-container': {
-	zIndex: 1
+	zIndex: 1,
+	height: 263,
+	width: 263
 }
 
 '.grid-cell': {
 	height: 57.5,
 	width: 57.5,
 	borderRadius: 3,
-	backgroundColor: '#eee4da',
+	backgroundColor: '#776e65',
 	opacity: 0.35
 }
+
+
+
 
 'Label': {
 	width: Ti.UI.SIZE,

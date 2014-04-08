@@ -18,4 +18,4 @@ A Titanium Alloy port of Gabriele Cirulli's [2048](http://gabrielecirulli.github
 * Titanium [SDK](http://www.appcelerator.com/titanium/titanium-sdk/) & [CLI](https://www.npmjs.org/package/titanium) 3.2+
 * [Alloy](https://www.npmjs.org/package/alloy) 1.3+
 * iOS
-* Android, Blackberry, and Mobileweb (_coming soon_)
+* (_coming soon_) Android, Blackberry, and Mobileweb
